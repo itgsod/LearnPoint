@@ -1,0 +1,212 @@
+/* hide ugly site icon */
+#siteIcon {
+  display: none;
+}
+  
+/* hide gigantic unecessary site page titles */
+h1#pageTitle {
+    display: none;
+}
+  
+/* hide search box (since it's not working anyway) */
+div#DeltaPlaceHolderSearchArea {
+  display: none;
+}
+
+/* Remove background image from ribbonrow */
+div#s4-ribbonrow, div#s4-ribbonrow * {
+  background-image: none;
+  /*background-color: #1499c4; */
+}
+
+/*Fix text color in ribbonrow */
+div#Ribbon li.ms-browseTab a {
+  background+color: #fff !important;
+}
+
+/* Remove 'Dela', 'Följ', etc from ribbonrow */
+#RibbonContainer-TabRowRight a[id$=site_share_button],
+#RibbonContainer-TabRowRight a[id$=site_follow_button],
+#RibbonContainer-TabRowRight span[id$=fullscreenmodebox]
+{
+    display: none !important;
+}
+
+/* Move icons in ribbonrow to the left, so we can move username etc down */
+#RibbonContainer-TabRowRight {
+  padding-left: 100px;
+  float: left;
+}
+
+/* Give ribbonBox (topmost row) correct background colour
+div#ribbonBox {
+  background-color: #575a5d;
+}
+
+/* Give ribbonBox (topmost row) correct text colour
+div#ribbonBox * {
+  color: #fff;
+}
+
+div#ribbonBox *:hover {
+  color: #000 !important;
+}
+
+/* Make sure drop down menu background is white
+.ms-cui-tabBody {
+  background-color: #fff !important;
+
+}
+
+/* Make sure drop down menu text colour is black
+.ms-cui-tabBody * {
+  color: #000 !important;
+}
+*/
+
+  
+  
+/* Move username, settings and logout down */
+div#suiteBarRight {
+    position: absolute;
+    background-color: #fff;
+    top: 0px;
+    right: 0px;
+    height: 34px;
+    z-index: 200;
+}
+
+/* Hide help button (since it's of no help anyway) */
+div#suiteBarRight #ms-help {
+  display: none;
+}
+  
+
+/* hide topmost row since there's nothing in it anymore */
+div#suiteBar {
+  height: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* hide another topmost row */
+div#DeltaSuiteLinks {
+    display: none;
+}
+
+
+/* Give menu row gray background and correct height */
+div#s4-titlerow, div#s4 * {
+    background-color: #575a5d;
+    height: 22px;
+}
+
+/* Give menu row items white color and extend vertically */
+div#s4-titlerow a.static {
+    color: #fff;
+    height: 28px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* "Inverse" colours of selected menu row item */
+div#s4-titlerow a.selected, div#s4-titlerow a.selected * {
+    background-color: #fff;
+    color: black;
+}
+  
+/* Make menu row flush with top of workspace and left side*/
+/* And move start of menu items in line with end of left menu */
+div#s4-titlerow {
+    padding-top: 6px;
+    margin-left: -20px;
+    padding-left: 210px;
+}
+
+/* Give content a proper top padding */
+div#DeltaPlaceHolderMain {
+  padding-top: 10px;
+}
+
+
+/* Fake left menu covering entire window */
+  div#s4-workspace {
+    background-color: #fff;    
+  }
+
+  div#s4-bodyContainer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }  
+
+  div#contentRow {
+    background-color: #575a5d;  
+  }
+
+  div#contentBox {
+    background-color: #FFF;
+    margin-top: -19px;
+    margin-left: 200px;
+    margin-right: 0px;
+    padding-left: 20px;
+  }
+
+  div#sideNavBox {
+    background-color: #575a5d;
+    margin-left: -20px;
+    margin-top: -19px;
+    padding-left: 40px;
+    border-top: 1px solid #727578
+  }
+  
+  /* Fake content (for empty pages) */ 
+  div#DeltaPlaceHolderMain {
+    min-height: 2000px;
+  }
+
+/* Give side menu links white colour */
+div#sideNavBox a, div#sideNavBox .menu-item-text  {
+    color: #FFF;
+}
+
+/* Give selected item in side menu lighter background colour */
+div#sideNavBox .static.selected {
+    background-color: #727578;
+}
+
+/* Print Stylesheet for CSN-Reports */
+@media print {
+
+  /* Ogiltig frånvaro */
+  .ve-attendance-invalidabsent {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+  }
+
+  /* Giltig frånvaro */
+  .ve-attendance-validabsent {
+    color: white; 
+    background-color: gray;
+  }
+}
+
+/* Make news items more distinct */
+
+  /* Give items proper margins and a thin bottom border */
+  .learnpoint-announcements-list .learnpoint-announcement-item {
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+    border-bottom: 1px solid #a5a5a5 !important;
+  }
+    
+  /* Make headings larger */
+  div.learnpoint-announcement-link a.ms-rteElement-H1B   
+  {
+    font-size: larger;
+  }
