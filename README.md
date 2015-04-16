@@ -1,6 +1,11 @@
 # LearnPoint
 
-Det här repositoryt fyller två funktioner:
+Det här projektet fyller två funktioner:
 
-1. Versionshanteringa av LearnPoints CSS
-2. Buggrapportering och Förslag kring LearnPoint
+## Buggrapportering och förslag kring LearnPoint ##
+
+För att rapportera en bugg eller lämna ett förslag, använd projektets [issues](https://github.com/itgsod/LearnPoint/issues)
+
+## Versionshantering av LearnPoints CSS ##
+
+[Default.css](default.css) innehåller ITGs anpassningar av LearnPoints standard-css
