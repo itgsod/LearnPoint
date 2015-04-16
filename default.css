@@ -210,3 +210,8 @@ div#sideNavBox .static.selected {
   {
     font-size: larger;
   }
+  
+/* Make assignment-panels wider */
+div.assignment-panel {
+  width: 400px !important;
+}
