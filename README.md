@@ -8,4 +8,4 @@ För att rapportera en bugg eller lämna ett förslag, använd projektets [issue
 
 ## Versionshantering av LearnPoints CSS ##
 
-[Default.css](default.css) innehåller ITGs anpassningar av LearnPoints standard-css
+[Default.css](https://github.com/itgsod/LearnPoint/blob/master/default.css) innehåller ITGs anpassningar av LearnPoints standard-css
