@@ -234,3 +234,14 @@ span.ms-spimn-presenceWrapper {
 div.edit-assessment div.details div textarea {
   width: 300px;
 }
+
+/* Make "today" stand out more in calendar */
+div.ms-acal-today, .ms-acal-today nobr {
+    border-top: none !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  background-color: #575a5d;
+    color: white;
+    font-weight: bold;   
+}
+}
