@@ -244,4 +244,10 @@ div.ms-acal-today, .ms-acal-today nobr {
     color: white;
     font-weight: bold;   
 }
+
+/* Increase legibility of calendar events */
+div.ms-acal-item, div.ms-acal-item * {
+  font-size: 12px;
+    background-color: lightgray;
+    color: black !important;
 }
