@@ -224,3 +224,8 @@ div.assignment-section ul {
 div#DeltaPlaceHolderMain {
   padding-top: 20px;
 }
+
+/* hide presence indicator (since it's not used anyway */
+span.ms-spimn-presenceWrapper {
+    display: none;
+}
