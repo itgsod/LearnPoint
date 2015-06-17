@@ -2,7 +2,7 @@
 #siteIcon {
   display: none;
 }
-  
+
 /* hide gigantic unecessary site page titles */
 h1#pageTitle {
     display: none;
@@ -29,7 +29,7 @@ div#Ribbon li.ms-browseTab a {
 #RibbonContainer-TabRowRight a[id$=site_follow_button],
 #RibbonContainer-TabRowRight span[id$=fullscreenmodebox]
 {
-    display: none !important;
+  display: none !important;
 }
 
 /* Move icons in ribbonrow to the left, so we can move username etc down */
@@ -68,7 +68,7 @@ div#ribbonBox *:hover {
   
 /* Move username, settings and logout down */
 div#suiteBarRight {
-    position: absolute;
+  position: absolute;
     background-color: #fff;
     top: 0px;
     right: 0px;
@@ -91,7 +91,7 @@ div#suiteBar {
 
 /* hide another topmost row */
 div#DeltaSuiteLinks {
-    display: none;
+  display: none;
 }
 
 
@@ -113,14 +113,14 @@ div#s4-titlerow a.static {
 
 /* "Inverse" colours of selected menu row item */
 div#s4-titlerow a.selected, div#s4-titlerow a.selected * {
-    background-color: #fff;
+  background-color: #fff;
     color: black;
 }
   
 /* Make menu row flush with top of workspace and left side*/
 /* And move start of menu items in line with end of left menu */
 div#s4-titlerow {
-    padding-top: 6px;
+  padding-top: 6px;
     margin-left: -20px;
     padding-left: 210px;
 }
@@ -176,7 +176,7 @@ div#sideNavBox a, div#sideNavBox .menu-item-text  {
 
 /* Give selected item in side menu lighter background colour */
 div#sideNavBox .static.selected {
-    background-color: #727578;
+  background-color: #727578;
 }
 
 /* Print Stylesheet for CSN-Reports */
@@ -204,14 +204,18 @@ div#sideNavBox .static.selected {
     margin-bottom: 10px !important;
     border-bottom: 1px solid #a5a5a5 !important;
   }
-    
+  
   /* Make headings larger */
   div.learnpoint-announcement-link a.ms-rteElement-H1B   
   {
     font-size: larger;
   }
-  
-/* Make assignment-panels wider */
+
 div.assignment-panel {
   width: 400px !important;
+}
+
+/* left padding for resource list items in assignment panel */
+div.assignment-section ul {
+    padding-left: 17px !important;
 }
