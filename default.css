@@ -229,3 +229,8 @@ div#DeltaPlaceHolderMain {
 span.ms-spimn-presenceWrapper {
     display: none;
 }
+
+/* increase width of assessment comment text boxes */
+div.edit-assessment div.details div textarea {
+  width: 300px;
+}
