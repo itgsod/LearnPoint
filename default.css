@@ -21,7 +21,7 @@ div#s4-ribbonrow, div#s4-ribbonrow * {
 
 /*Fix text color in ribbonrow */
 div#Ribbon li.ms-browseTab a {
-  background+color: #fff !important;
+  background-color: #fff !important;
 }
 
 /* Remove 'Dela', 'Följ', etc from ribbonrow */
@@ -218,4 +218,9 @@ div.assignment-panel {
 /* left padding for resource list items in assignment panel */
 div.assignment-section ul {
     padding-left: 17px !important;
+}
+
+/* padding for file upload dialogs */ 
+div#DeltaPlaceHolderMain {
+  padding-top: 20px;
 }
