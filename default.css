@@ -251,3 +251,9 @@ div.ms-acal-item, div.ms-acal-item * {
     background-color: lightgray;
     color: black !important;
 }
+
+
+/* Hide Datepicker and associated items in left menu */
+div#DatePickerDiv, div.ms-acal-apanel-outer {
+    display: none !important;
+}
