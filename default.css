@@ -254,6 +254,6 @@ div.ms-acal-item, div.ms-acal-item * {
 
 
 /* Hide Datepicker and associated items in left menu */
-div#DatePickerDiv, div.ms-acal-apanel-outer {
+div#sideNavBox div#DatePickerDiv, div#sideNavBox div.ms-acal-apanel-outer {
     display: none !important;
 }
